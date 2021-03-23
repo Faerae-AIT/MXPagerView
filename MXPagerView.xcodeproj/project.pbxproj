@@ -133,15 +133,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		95EDBD362609F47C0025D95D /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9C1804221DA39AA400D08F45 /* MXPagerView.h */,
+				9C1804231DA39AA400D08F45 /* MXPagerView.m */,
+				9C1804241DA39AA400D08F45 /* MXPagerViewController.h */,
+				9C1804251DA39AA400D08F45 /* MXPagerViewController.m */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		9C1804071DA398E400D08F45 = {
 			isa = PBXGroup;
 			children = (
-				9C1804861DA3A5CE00D08F45 /* Metadata */,
-				9C1804211DA39AA400D08F45 /* MXPagerView */,
-				9C1804131DA398E400D08F45 /* Framework */,
 				9C18042F1DA39C4C00D08F45 /* Example-objc */,
 				9C1804651DA3A05F00D08F45 /* Example-swift */,
+				9C1804131DA398E400D08F45 /* Framework */,
+				9C1804861DA3A5CE00D08F45 /* Metadata */,
+				9C1804211DA39AA400D08F45 /* MXPagerView */,
 				9C1804121DA398E400D08F45 /* Products */,
+				95EDBD362609F47C0025D95D /* Sources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -168,10 +180,6 @@
 		9C1804211DA39AA400D08F45 /* MXPagerView */ = {
 			isa = PBXGroup;
 			children = (
-				9C1804221DA39AA400D08F45 /* MXPagerView.h */,
-				9C1804231DA39AA400D08F45 /* MXPagerView.m */,
-				9C1804241DA39AA400D08F45 /* MXPagerViewController.h */,
-				9C1804251DA39AA400D08F45 /* MXPagerViewController.m */,
 			);
 			path = MXPagerView;
 			sourceTree = "<group>";
